@@ -29,7 +29,7 @@ for i = 1:length(units)
 switch direction{i}
 case 'forward'
     horizontal = horizontal + units(i);
-    depth = depth + (aim * units(i))
+    depth = depth + (aim * units(i));
 case 'up'
     aim = aim - units(i);
 case 'down'
